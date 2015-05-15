@@ -71,7 +71,6 @@ def getPOS(mstr):
     template += '<text>%s</text>'
     template += '</wordsegmentation>'
     s.connect((serverHost, serverPort)) # connect to server on the port
-    print template%mstr
     s.send(template%mstr.decode("utf8", 'ignore').encode("big5", 'ignore'))               # send the data
     #data = recv_timeout(s)
     data = s.recv(2*4096)                 # receive up to 1K bytes

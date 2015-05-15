@@ -1,2 +1,3 @@
-# LBS-SIM-TPE-RSTRNT-RCMND
-Taipei Restaurant  Recommendation 
+# a Location-based and Opinion-Simularity-based Restaurant Recoomendation
+
+This project is focus on building ...
